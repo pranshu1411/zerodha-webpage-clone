@@ -1,0 +1,56 @@
+.content{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-pic-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+}
+
+.first-pic{
+    display: flex;
+    margin-bottom: 5%;
+
+    height: 340px;
+    max-width: 100%;
+    max-height: 45vh;
+}
+
+
+.heading{
+    font-weight: 500;
+    font-size: 44px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 2%;
+}
+
+.sub-heading{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(66, 66, 66);
+    margin-bottom: 3%;
+}
+
+.sign-up-button{
+    align-items: center;
+    height: 45px;
+    white-space: nowrap;
+    background-color: rgb(56, 126, 209);
+    border: none;
+    color: white;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 2px;
+    font-size: 20px;
+    transition: 0.15s;
+}
+.sign-up-button:hover{
+    cursor: pointer;
+    background-color: black;
+}
